@@ -972,6 +972,8 @@ impl DockerCommandExt for Command {
             "HTTP_TIMEOUT",
             "https_proxy",
             "QEMU_STRACE",
+            "NO_PROXY",
+            "no_proxy",
         ];
         let cargo_prefix_skip = &[
             "CARGO_HOME",
